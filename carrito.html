@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="logo-principal" src="./assets/img/fotor_2023-6-11_12_23_36 (2).ico" alt="">
+        </div>
+    </header>
+
+    <main>
+        <h2>Productos</h2>
+    <div id="productos">
+        <div class="card card-index">
+            <img src="./assets/img/harina.jpg" alt="Harina x Kg" onclick="agregarAlCarrito(0)">
+            <div class="card-texto">
+                <h3>Harina Integral x Kg</h3>
+                <p>Agroecologica - <strong>$1080,00</strong></p>
+            </div>
+        </div>
+        <div class="card card-index">
+            <img src="./assets/img/avena.jpg" alt="Avena x Kg" onclick="agregarAlCarrito(1)">
+            <div class="card-texto">
+                <h3>Avena Instantanea x Kg</h3>
+                <p>Lista para consumir - <strong>$980,00</strong></p>
+            </div>
+        </div>
+        <div class="card card-index">
+            <img src="./assets/img/pasta de mani.jpg" alt="Pasta de Maní" onclick="agregarAlCarrito(2)">
+            <div class="card-texto">
+                <h3>Pasta de mani King</h3>
+                <p>Frasco de 485 Grs - <strong>$1.800,00</strong></p>
+            </div>
+        </div>
+        <div class="card card-index">
+            <img src="./assets/img/pasas de uva.jpg" alt="Pasas de uva x 100 Grs" onclick="agregarAlCarrito(3)">
+            <div class="card-texto">
+                <h3>Pasas de uva x 100 Grs</h3>
+                <p>Ideal para deportistas - <strong>$290,00</strong></p>
+            </div>
+        </div>
+        <div class="card card-index">
+            <img src="./assets/img/granola.jpg" alt="Granola x 100 Grs" onclick="agregarAlCarrito(4)">
+            <div class="card-texto">
+                <h3>Granola x 100 Grs</h3>
+                <p>Para consumir con yoghurt, leche o sola - <strong>$370,00</strong></p>
+            </div>
+        </div>
+      
+        
+    </div>
+    
+    <h1>Carrito de Compras</h1>
+    <div id="carrito"></di
+    </main>
+    
+    <script src="./carrito.js">
+
+    </script>
+</body>
+</html>

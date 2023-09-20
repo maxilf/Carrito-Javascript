@@ -1,0 +1,89 @@
+html{
+    font-family: 'Barlow', sans-serif;
+    height: 850px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 2px solid gray;
+}
+
+.logo-principal{
+    height: 130px;
+}
+
+
+#productos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin: 20px;
+}
+
+.card {
+    width: 230px;
+    height: auto; 
+    border: 1px solid #bbb8b8;
+    border-radius: 5px;
+    padding-top: 15px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-color: rgb(240, 240, 240);
+    :hover{
+        opacity: 0.2;
+        color: blue;
+    }
+}
+
+.card img {
+    width: 230px;
+    height: 230px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-texto {
+    margin-top: 10px;
+    width: auto;
+}
+
+.card-texto h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    :hover{
+        color: blue;
+    }
+}
+
+.card-texto p {
+    font-size: 15px;
+    margin: 7px;
+    padding: 5px;
+}
+
+.card-texto a {
+    display: inline-block;
+    font-size: 14px;
+    color: blue;
+    text-decoration: none;
+}
+
+/* CARDS DE INDEX.HTML */
+
+.cards-index {
+    display: flex;
+    flex-wrap: wrap;
+}
